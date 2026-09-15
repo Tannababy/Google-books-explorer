@@ -1,10 +1,10 @@
 function Card(props) {
   return (
     <section>
-      {/* <image src={props.image} alt={props.title} />
-      <p>{props.title}</p>
-      <p>{props.author}</p>
-      <p>{props.description}</p> */}
+      <img src={props.image} alt={props.title + " image"} />
+      <p>Title: {props.title}</p>
+      <p>Author: {props.author}</p>
+      <p>Description: {props.description}</p>
     </section>
   );
 }
